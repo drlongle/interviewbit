@@ -46,9 +46,6 @@ public:
     vector<int> findSubstring(string s, const vector<string>& words);
 };
 
-
-
-
 unsigned int myhash(const string &s) {
     unsigned int ret = 0;
     for (int i = 0; i < s.length(); i++) {
