@@ -75,6 +75,7 @@
 75. Max Sum Without Adjacent Elements
 76. Jump Game Array
 77. Coin Sum Infinite
-
-
+78. Longest Increasing Subsequence
+79. Unique Paths in a Grid
+80. Coins in a Line
 
