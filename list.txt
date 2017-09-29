@@ -80,4 +80,6 @@
 80. Coins in a Line
 81. Intersecting Chords in a Circle
 82. N digit numbers with digit sum S
+83. Max Rectangle in Binary Matrix
+84. Max Sum Path in Binary Tree
 
