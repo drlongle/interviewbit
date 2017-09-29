@@ -79,4 +79,5 @@
 79. Unique Paths in a Grid
 80. Coins in a Line
 81. Intersecting Chords in a Circle
+82. N digit numbers with digit sum S
 
