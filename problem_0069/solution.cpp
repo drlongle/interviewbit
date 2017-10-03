@@ -315,7 +315,7 @@ public:
 
         vector<pair<int, int> > vec;
         for(int i = 0; i < sz; ++i) {
-            vec.push_back(mpa(Heights[i], InFronts[i]));
+            vec.push_back(make_pair(Heights[i], InFronts[i]));
         }
         sort(vec.begin(), vec.end());
 

@@ -10,7 +10,7 @@ Palindrome string:
 A string which reads the same backwards. More formally, S is palindrome
 if reverse(S) = S.
 
-Incase of conflict, return the substring which occurs first ( with the least
+In case of conflict, return the substring which occurs first ( with the least
 starting index ).
 
 Example :

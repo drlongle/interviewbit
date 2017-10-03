@@ -13,6 +13,21 @@ B : [2 3]
 
 Sample Output:
 3
+
+Solution outline
+set imin, imax = 0, m, then start searching in [imin, imax]
+Search in [imin, imax]:
+    i = (imin + imax) / 2
+    j = ((m + n + 1) / 2) - i
+    if B[j - 1] > A[i]:
+        search in [i + 1, imax]
+    else if A[i - 1] > B[j]:
+        search in [imin, i - 1]
+    else:
+        if m + n is odd:
+            answer is max(A[i - 1], B[j - 1])
+        else:
+            answer is (max(A[i - 1], B[j - 1]) + min(A[i], B[j])) / 2
 */
 
 #include <algorithm>

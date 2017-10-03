@@ -82,4 +82,7 @@
 82. N digit numbers with digit sum S
 83. Max Rectangle in Binary Matrix
 84. Max Sum Path in Binary Tree
-
+85. Longest Arithmetic Progression
+86. Sub Matrices with Sum Zero
+87. Length of Longest Subsequence
+88. Shortest common superstring

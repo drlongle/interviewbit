@@ -94,7 +94,7 @@ public:
     }
 };
 
-vector<vector<int>> Solution::subsets(vector<int>& nums) {
+vector<vector<int>> Solution::my_subsets(vector<int>& nums) {
     sort(nums.begin(), nums.end());
     vector<vector<int> > result;
     vector<int> one_subset;
