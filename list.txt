@@ -87,4 +87,8 @@
 87. Length of Longest Subsequence
 88. Shortest common superstring
 89. Flip Array
-
+90. Ways to color a 3xN Board
+91. Tushar's Birthday Bombs
+92. Tushar's Birthday Party
+93. Manhattan Distance Neighbourhood
+94. Largest area of rectangle with permutations
