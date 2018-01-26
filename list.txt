@@ -117,3 +117,5 @@
 117. Capture Regions on Board
 118. Word Search Board
 119. Dungeon Princess
+120. Black Shapes
+121. Knight On Chess Board
