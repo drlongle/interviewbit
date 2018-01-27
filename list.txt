@@ -119,3 +119,6 @@
 119. Dungeon Princess
 120. Black Shapes
 121. Knight On Chess Board
+122. Possibility of finishing all courses given pre-requisites
+123. Smallest Multiple With 0 and 1
+124. Scramble String
