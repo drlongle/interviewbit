@@ -129,3 +129,5 @@
 129. Queen Attack
 130. Interleaving Strings
 131. Palindrome Partitioning II
+132. Max Product Subarray
+133. Distinct Subsequences
