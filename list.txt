@@ -124,3 +124,6 @@
 124. Scramble String
 125. Edit Distance
 126. Longest valid Parentheses
+127. Regular Expression Matching
+128. Regular Expression II
+129. Queen Attack
