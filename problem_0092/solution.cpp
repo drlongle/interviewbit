@@ -22,9 +22,9 @@ Constraints:
 Example:
 
 Input:
-    2 4 6
-    2 1 3
-    2 5 3
+    4 6
+    1 3
+    5 3
 
 Output:
     14
@@ -79,8 +79,13 @@ public:
 int Solution::my_solve(const vector<int> &friends, const vector<int> &capacity, const vector<int> &prices) {
     if (friends.empty()) return 0;
     int max = *max_element(friends.begin(), friends.end());
+
+    // cost[i] contains the cost we need to pay to satisty "i" eating capacity
     vector<int> cost(max+1, numeric_limits<int>::max());
+
+    // the cost for satisfying 0 eating capacity is 0
     cost[0] = 0;
+
     for (size_t j = 0; j < capacity.size(); ++j) {
         int ca = capacity[j];
         for (int i = ca; i <= max; ++i) {
